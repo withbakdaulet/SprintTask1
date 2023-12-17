@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css task 1 </title>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 132, 221);
+    padding: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.main{
+    background-color: rgb(32, 96, 186);
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainImg img{
+    padding: 20px;
+    margin-left: 20px;
+    width: 450px;
+    height: 300px;
+}
+.mainText{
+    margin-top: 13px;
+}
+.latest{
+    text-align: center;
+    margin-top: 10px;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+.card1{
+    height: 320px;
+   
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.card2{
+    height: 320px;
+    border: 1px rgb(159, 136, 136) solid;
+    border-style: groove;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.card3{
+    height: 320px;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.card4{
+    height: 320px;
+    border: 1px rgb(159, 136, 136) solid;
+    border-style: groove;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.card1 img{
+    width: 280px; 
+    height: 200px; 
+}
+.card2 img{
+    width: 280px;
+    height: 200px;
+}
+.card3 img{
+    width: 280px;
+    height: 200px;
+}
+.card4 img{
+    width: 280px;
+    height: 200px;
+}
+.but{
+    margin-top: 10px;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="home">
+            <h2>BITLAB NEWS</h2>
+        </div>
+        <div class="menu">
+            <a href="">About</a>
+            <a href="">Sports</a>
+            <a href="">Contacts</a>
+            <a href="">FAQ</a>
+            <a href="">Login</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mainImg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6t7RPvR3xA35JPv-JsWJBzrxTdpTk0oxPA&usqp=CAU"
+                alt="">
+        </div>
+        <div class="mainText">
+            <h1>Khabib to Conor: "It is the same thing"</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, error.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos pariatur a sint quo, necessitatibus
+                nihil modi esse suscipit ab nemo ea eveniet <br> dolor eaque enim.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iste neque quia reprehenderit a optio
+                vitae nihil nisi magnam illo ducimus, ex corrupti obcaecati, accusamus dolor laudantium. Hic veritatis
+                rem fugiat velit laboriosam assumenda ipsam perferendis. Necessitatibus velit eius repellendus?</p>
+        </div>
+    </div>
+    <div class="latest">
+        <h2><b>Latest news</b></h2>
+    </div>
+    <div class="card">
+        <div class="card1">
+            <img src="https://icdn.football-espana.net/wp-content/uploads/2023/03/Eden-Hazard.jpg" alt="">
+            <p><b>Eden Hazard injury update</b></p>
+            <p style="font-size: 18px;"> adipisicing elit. Eius minus <br>sit
+                obcaecati soluta, debitis
+                inventore!</p>
+            <button type="button" class="but">Read more</button>
+        </div>
+        <div class="card2">
+            <img src="https://www.lada.kz/uploads/posts/2023-06/1686745727_5536965_0-0-2544-1908_1920x0_80_0_0_21a53d8eede000410078b18a2c4e4a3b.jpg"
+                alt="">
+            <p><b>GGG boxer</b></p>
+            <p style="font-size: 18px;"> Eius minus sit obcaecati soluta, debitis <br>
+                inventore!</p>
+            <button type="button" class="but">Read more</button>
+        </div>
+        <div class="card3">
+            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/07/02/16567846829454.jpg" alt="">
+            <p><b>Cristiano Ronaldo</b></p>
+            <p style="font-size: 18px;">Lorem ipsum dolor sit soluta, debitis <br>
+                inventore!</p>
+            <button type="button" class="but">Read more</button>
+        </div>
+        <div class="card4">
+            <img src="https://img.championat.com/s/735x490/news/big/i/n/insajder-boj-shavkata-rahmonova-i-stivena-tompsona-nahoditsya-v-razrabotke_1661268944995210138.jpg"
+                alt="">
+            <p><b>Shavkhat Rakhmonov</b></p>
+            <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur,<br> inventore!</p>
+            <button type="button" class="but">Read more</button>
+        </div>
+    </div>
+</body>
+
+</html>
